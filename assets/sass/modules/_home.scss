@@ -59,7 +59,7 @@
    }
 
    &--info {
-      padding: 24px 39px 30px 29px;
+      padding: 24px 0px 30px 29px;
       background-color: $white;
    }
 }
@@ -93,5 +93,7 @@
       font: normal 400 15px/100% WorkSans;
       color: $zambezi;
       margin-top: 22px;
+      padding-right: 90px;
+
    }
 }
