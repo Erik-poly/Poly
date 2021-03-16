@@ -1,0 +1,97 @@
+.home {
+   &__cards {
+      display: flex;
+      align-items: end;
+      flex-wrap: wrap;
+      padding: 73px 0px;
+   }
+}
+
+.cards {
+   &__colum {
+      margin: 0 27px;
+   }
+
+   &__item {
+      width: 370px;
+      margin: 27px 0;
+   }
+   &__nature {
+      &--img {
+         height: 240px;
+      }
+   }
+   &__branding {
+      &--img {
+         height: 240px;
+      }
+   }
+   &__cites {
+      &--img {
+         height: 370px;
+      }
+   }
+   &__design {
+      &--img {
+         height: 240px;
+      }
+   }
+}
+
+.colum--one {
+   .cards__item:nth-last-child(1) {
+      .cards__nature--img {
+         height: 370px;
+      }
+   }
+}
+.colum--two {
+   margin-left: 0px;
+}
+.colum--three {
+   margin-left: 0px;
+}
+
+.cards__item {
+   &--img {
+      position: relative;
+      background-color: $darkGray;
+   }
+
+   &--info {
+      padding: 24px 39px 30px 29px;
+      background-color: $white;
+   }
+}
+.img {
+   &__button {
+      position: absolute;
+      bottom: 9px;
+      left: 10px;
+      background-color: $nero;
+      & a {
+         font: normal 500 12px/100% WorkSans;
+         text-transform: uppercase;
+         padding: 11px 21px;
+         color: $white;
+      }
+   }
+}
+.info {
+   &__title {
+      font: normal 700 24px/100% PlayfairDisplay;
+   }
+
+   &__date {
+      font: normal 500 12px/100% WorkSans;
+      color: $gray9;
+      text-transform: uppercase;
+      margin-top: 20px;
+   }
+
+   &__text {
+      font: normal 400 15px/100% WorkSans;
+      color: $zambezi;
+      margin-top: 22px;
+   }
+}
