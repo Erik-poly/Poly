@@ -1,0 +1,13 @@
+.article {
+   background-color: $white;
+   text-align: center;
+   & p {
+      font-family: "WorkSans";
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: $gray9;
+      line-height: 1;
+      padding: 43px 0px;
+   }
+}
