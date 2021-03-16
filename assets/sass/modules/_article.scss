@@ -2,12 +2,9 @@
    background-color: $white;
    text-align: center;
    & p {
-      font-family: "WorkSans";
-      font-size: 14px;
-      font-weight: 400;
+      font: normal 400 14px/100% Work Sans;
       text-transform: uppercase;
       color: $gray9;
-      line-height: 1;
       padding: 43px 0px;
    }
 }
