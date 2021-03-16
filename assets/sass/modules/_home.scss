@@ -4,17 +4,13 @@
       align-items: end;
       flex-wrap: wrap;
       padding: 73px 0px;
+      justify-content: space-evenly;
    }
 }
 
 .cards {
-   &__colum {
-      margin: 0 27px;
-   }
-
    &__item {
       width: 370px;
-      margin: 27px 0;
    }
    &__nature {
       &--img {
@@ -45,13 +41,6 @@
       }
    }
 }
-.colum--two {
-   margin-left: 0px;
-}
-.colum--three {
-   margin-left: 0px;
-}
-
 .cards__item {
    &--img {
       position: relative;
@@ -83,14 +72,14 @@
    }
 
    &__date {
-      font: normal 500 12px/100% WorkSans;
+      font: normal 500 12px/100% Work Sans;
       color: $gray9;
       text-transform: uppercase;
       margin-top: 20px;
    }
 
    &__text {
-      font: normal 400 15px/100% WorkSans;
+      font: normal 400 15px/100% Work Sans;
       color: $zambezi;
       margin-top: 22px;
       padding-right: 90px;
