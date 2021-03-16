@@ -1,0 +1,17 @@
+.footer {
+   height: 160px;
+}
+
+.social {
+   &__icons {
+      ul {
+         display: flex;
+         justify-content: center;
+         color: $darkGray;
+         li {
+            font-size: 25px;
+            margin: 52px 14px 0 14px;
+         }
+      }
+   }
+}
