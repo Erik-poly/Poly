@@ -234,4 +234,19 @@ body {
   color: #5f5f5f;
   margin-top: 22px;
 }
+
+.article {
+  background-color: #ffff;
+  text-align: center;
+}
+
+.article p {
+  font-family: "WorkSans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #171717;
+  line-height: 1;
+  padding: 43px 0px;
+}
 /*# sourceMappingURL=style.css.map */
