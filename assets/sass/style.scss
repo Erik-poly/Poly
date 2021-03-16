@@ -7,9 +7,13 @@
 @import 'base/vars';
 @import 'base/reset';
 @import 'base/body-container';
+@import 'base/media_mixin';
 
 // Modules
 @import 'modules/header';
 @import 'modules/home';
 @import 'modules/article';
 @import 'modules/footer';
+
+// Responsive
+@import 'responsive/responsive';
