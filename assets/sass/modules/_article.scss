@@ -2,8 +2,11 @@
    background-color: $white;
    text-align: center;
    & p {
-      font: normal 400 14px/100% Work Sans;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
       text-transform: uppercase;
+      letter-spacing: 0.025em;
       color: $gray9;
       padding: 43px 0px;
    }
