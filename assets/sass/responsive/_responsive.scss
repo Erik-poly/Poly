@@ -117,12 +117,6 @@
 
 .cards {
    &__item {
-      @include _1110 {
-         margin-top: 25px;
-         &:first-child {
-            margin-top: 0px;
-         }
-      }
       @include _480 {
          width: 340px;
       }
@@ -165,8 +159,5 @@
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      .cards__item:first-child {
-         margin-top: 25px;
-      }
    }
 }
