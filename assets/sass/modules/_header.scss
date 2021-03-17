@@ -2,7 +2,7 @@
    width: 100%;
    height: 100px;
    background-color: $white;
-   
+
    .hamburger-menu {
       input {
          display: none;
@@ -25,7 +25,9 @@
    }
 
    &__item {
-      font: normal 400 14px/100% Work Sans;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
       letter-spacing: 0.025em;
       padding: 43px 35px;
       text-transform: uppercase;
