@@ -1,7 +1,7 @@
 .home {
    &__cards {
       display: flex;
-      align-items: end;
+      align-items: flex-end;
       flex-wrap: wrap;
       padding: 73px 0px;
       justify-content: space-evenly;
@@ -11,6 +11,10 @@
 .cards {
    &__item {
       width: 370px;
+      margin-top: 25px;
+      &:first-child {
+         margin-top: 0px;
+      }
    }
    &__nature {
       &--img {
@@ -41,6 +45,13 @@
       }
    }
 }
+
+.colum--three {
+   .cards__item:first-child {
+      margin-top: 25px;
+   }
+}
+
 .cards__item {
    &--img {
       position: relative;
@@ -59,30 +70,42 @@
       left: 10px;
       background-color: $nero;
       & a {
-         font: normal 500 12px/100% Work Sans;
+         font-size: 12px;
+         line-height: 30px;
+         font-weight: 500;
          text-transform: uppercase;
-         padding: 11px 21px;
+         letter-spacing: 0.025em;
+         padding: 0px 21px;
          color: $white;
       }
    }
 }
 .info {
    &__title {
-      font: normal 700 24px/100% PlayfairDisplay;
+      font-family: "Playfair Display";
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 700;
+      letter-spacing: 0.025em;
    }
 
    &__date {
-      font: normal 500 12px/100% Work Sans;
-      color: $gray9;
+      font-size: 12px;
+      line-height: 24px;
+      font-weight: 500;
       text-transform: uppercase;
+      letter-spacing: 0.025em;
+      color: $gray9;
       margin-top: 20px;
    }
 
    &__text {
-      font: normal 400 15px/100% Work Sans;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: 400;
+      letter-spacing: 0.005em;
       color: $zambezi;
       margin-top: 22px;
-      padding-right: 90px;
-
+      padding-right: 30px;
    }
 }
